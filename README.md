@@ -27,5 +27,5 @@ for Raspberry Pi
 
 ```
 wget https://raw.githubusercontent.com/vlee489/pibot/master/installNoPishift.sh
-sudo bash install.sh
+sudo bash installNoPishift.sh
 ```
