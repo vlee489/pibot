@@ -13,6 +13,6 @@ These following tools are used for programming the robots at the **Northern Irel
 ## Usage/Install
 
 ```
-wget https://raw.githubusercontent.com/vlee489/scriptor/master/install.sh
+wget https://raw.githubusercontent.com/vlee489/pibot/master/install.sh
 sudo bash install.sh
 ```
