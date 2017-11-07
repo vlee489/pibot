@@ -29,6 +29,7 @@ else
   echo -e "${BLUE}Installing Adafruit WebIDE${NC}"
   sleep 0.5
   curl https://raw.githubusercontent.com/adafruit/Adafruit-WebIDE/alpha/scripts/install.sh | sudo sh -s - --offline
+  clear
   echo -e "${BLUE}Installing PiShift${NC}"
   sleep 0.5
   cd ${USER_HOME}
@@ -36,10 +37,11 @@ else
   cd piShift
   ./install.sh
   cd ${USER_HOME}
+  clear
   echo -e "${BLUE}Installing Scriptor${NC}"
   git clone https://github.com/vlee489/scriptor.git
   cd scriptor
-  ./install.sh
+  bash install.sh
   echo -e "${BLUE}===================="
   echo -e "Install Finsihed!"
   echo -e "Reboot in 5 Seconds"
