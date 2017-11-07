@@ -9,7 +9,7 @@ echo "This is made for the NI Raspberry Jam Robotics Course!"
 echo "This is the PiBot install script that installs the following"
 echo "* Adafruit WebIDE (No Git)"
 echo "* PiShift"
-echo "* Custom python sideloader"
+echo "* Scriptor"
 echo ""
 echo -e "${BLUE}Your Pi will reboot after the install!${NC}"
 echo "Checking for root access"
@@ -35,4 +35,16 @@ else
   git clone https://github.com/tomhartley/piShift.git
   cd piShift
   ./install.sh
+  cd ${USER_HOME}
+  echo -e "${BLUE}Installing Scriptor${NC}"
+  git clone https://github.com/vlee489/scriptor.git
+  cd scriptor
+  ./install.sh
+  echo -e "${BLUE}===================="
+  echo -e "Install Finsihed!"
+  echo -e "Reboot in 5 Seconds"
+  echo -e "====================${NC}"
+  echo -e "${RED}User Ctrl + C to cancel reboot!${NC}"
+  sleep 5
+  reboot
 fi
