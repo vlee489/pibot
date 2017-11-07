@@ -24,6 +24,8 @@ for Raspberry Pi
 - Model 1 A, A+ , B(rev1 + rev2), B+
 - Model 2 B
 - Model 3 B
+- Zero (Note: You can use the Adafruit WebIDE with a WiFi adaptor)
+- Zero W
 
 ```
 wget https://raw.githubusercontent.com/vlee489/pibot/master/installNoPishift.sh
