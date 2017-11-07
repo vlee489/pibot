@@ -11,7 +11,7 @@ This script Installs the following
 These following tools are used for programming the robots at the **Northern Ireland Raspberry Jam** Robotics course.
 
 ## Install
-Raspberry Pi
+for Raspberry Pi
 - Zero (Note that Adafruit WebIDE can't be used)
 - Zero W
 ```
@@ -19,8 +19,8 @@ wget https://raw.githubusercontent.com/vlee489/pibot/master/install.sh
 sudo bash install.sh
 ```
 
-## Install **No PiShift**
-Raspberry Pi
+## Install (No PiShift)
+for Raspberry Pi
 - Model 1 A, A+ , B(rev1 + rev2), B+
 - Model 2 B
 - Model 3 B
