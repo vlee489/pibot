@@ -4,7 +4,7 @@ NIRaspJam robot install script
 ## Introduction
 
 This script Installs the following
-- [Adafruit WebIDE (No Git)](https://github.com/adafruit/Adafruit-WebIDE)
+- [Adafruit WebIDE](https://github.com/adafruit/Adafruit-WebIDE)
 - [PiShift](https://github.com/tomhartley/piShift)
 - [Scriptor](https://github.com/vlee489/scriptor)
 

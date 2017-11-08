@@ -28,7 +28,7 @@ else
   clear
   echo -e "${BLUE}Installing Adafruit WebIDE${NC}"
   sleep 0.5
-  curl https://raw.githubusercontent.com/adafruit/Adafruit-WebIDE/alpha/scripts/install.sh | sudo sh -s - --offline
+  curl https://raw.githubusercontent.com/adafruit/Adafruit-WebIDE/alpha/scripts/install.sh | sudo sh
   clear
   echo -e "${BLUE}Installing PiShift${NC}"
   sleep 0.5
